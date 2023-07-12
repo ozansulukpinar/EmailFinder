@@ -9,8 +9,14 @@
 
 <body>
     <div id="main">
-        <input type="text" placeholder="Please enter an Github username" id="username" />
-        <input type="button" value="Search" onclick="searchUsername();" />
+        <div>
+            <input type="text" placeholder="Please enter an Github username" id="username" />
+            <input type="button" value="Search" onclick="searchUsername();" />
+        </div>
+        <br />
+        <div>
+            <textarea id="response" rows="5" cols="50" readonly></textarea>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
